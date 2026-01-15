@@ -1,39 +1,3 @@
-/*
- * Weather Application using JavaFX
- * Purpose: Creates a multi-scene weather forecast application that displays weather information
- * for different cities using the National Weather Service API.
- *
- * Application Structure:
- * 1. Welcome Scene:
- *    - Entry point of application
- *    - Displays greeting and start button
- *    - Uses VBox for vertical layout of elements
- *
- * 2. City Selection Scene:
- *    - Allows users to choose from predefined cities
- *    - Cities stored in HashMap with their grid coordinates
- *    - Uses GridPane to organize city buttons
- *
- * 3. Today's Weather Scene:
- *    - Shows current day and night forecast
- *    - Displays temperature, wind, and weather description
- *    - Uses HBox and VBox combinations for layout
- *
- * 4. Forecast Scene:
- *    - Shows extended 7-day forecast
- *    - Each day displayed in separate card format
- *    - Implements scrolling for viewing all days
- *
- * Data Flow:
- * - Weather data fetched from National Weather Service API
- * - Data parsed into Period objects
- * - UI updated based on received forecast data
- *
- * Navigation:
- * - Users can move between scenes using navigation buttons
- * - Each scene maintains consistent navigation options
- */
-
 // JavaFX core imports for building the application
 import javafx.application.Application;  // Base class for JavaFX applications
 
